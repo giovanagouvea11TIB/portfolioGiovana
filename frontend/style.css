@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --black: #000;
+    --yelow: #FDC435;
+    --pink: #FAD6F7;
+    --icone-grey: rgba(19, 19, 19, 0.29);
+}
+
+body{
+    font-family: "Epilogue", sans-serif;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: 6.4rem;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+p{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+header{
+    font-family: "Comfortaa", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5.7rem;
+    padding-right: 11.1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.imagemLogo{
+    width: 4.9rem;
+    margin-right: 0.3rem; 
+}
+
+.textoLogo{
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.nav-bar{
+    font-weight: regular;
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+main{
+    margin-inline: 8rem;
+}
+
+main h1{
+    max-width: 53.1rem;
+    margin-block: 3.2rem;
+    display: flex;
+}
+
+.principal-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.desenhoEsquisito{
+    position: relative;
+    display: flex;
+    width: 70.6rem;
+    height: 79.1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8.1rem;
+}
+
+.desenhoEsquisitoAmarelo {
+    margin-left: 4.2rem;
+    position: absolute;
+    z-index: 2;
+    top: 5.2rem;
+    left: 0;
+}
+.desenhoEsquisitoRosa {
+    position: absolute;
+    z-index: 1;
+    top: 5.2rem;
+    left: 0;
+}
+
+.botoesContato{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5.9rem;
+}
+
+.botoesContato a{
+    width: 5.4rem;
+    height: 5rem;
+    background: var(--icone-grey);
+    border: 1.5px solid var(--black);
+    padding: auto;
+    border-radius: 1.5rem;
+}
+
+.botoesContato img{
+    padding-inline: 1.2rem;
+    padding-block: 1rem;
+}
+
+
